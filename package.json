@@ -1,0 +1,58 @@
+{
+  "name": "@joebell/cx",
+  "version": "0.1.0",
+  "description": "yet another classnames package",
+  "author": "Joe Bell <joe@joebell.co.uk>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/tsdx-test.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why",
+    "commit": "git-cz"
+  },
+  "bugs": {
+    "url": "https://github.com/joe-bell/cx/issues"
+  },
+  "homepage": "https://github.com/joe-bell/cx#readme",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "size-limit": [
+    {
+      "path": "dist/cx.cjs.production.min.js",
+      "limit": "150B"
+    },
+    {
+      "path": "dist/cx.esm.js",
+      "limit": "160B"
+    }
+  ],
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^4.6.0",
+    "commitizen": "4.1.2",
+    "cz-conventional-changelog": "3.3.0",
+    "size-limit": "^4.6.0",
+    "tsdx": "0.14.1"
+  }
+}
