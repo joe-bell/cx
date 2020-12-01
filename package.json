@@ -49,10 +49,10 @@
     }
   ],
   "devDependencies": {
-    "@size-limit/preset-small-lib": "^4.6.0",
+    "@size-limit/preset-small-lib": "4.9.0",
     "commitizen": "4.2.1",
     "cz-conventional-changelog": "3.3.0",
-    "size-limit": "^4.6.0",
+    "size-limit": "4.9.0",
     "tsdx": "0.14.1"
   }
 }
