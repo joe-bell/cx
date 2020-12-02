@@ -52,7 +52,7 @@
     "@size-limit/preset-small-lib": "4.9.0",
     "commitizen": "4.2.2",
     "cz-conventional-changelog": "3.3.0",
-    "size-limit": "4.9.0",
+    "size-limit": "4.9.1",
     "tsdx": "0.14.1"
   }
 }
