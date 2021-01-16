@@ -50,7 +50,7 @@
   ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "4.9.1",
-    "commitizen": "4.2.2",
+    "commitizen": "4.2.3",
     "cz-conventional-changelog": "3.3.0",
     "size-limit": "4.9.1",
     "tsdx": "0.14.1"
