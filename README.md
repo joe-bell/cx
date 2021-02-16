@@ -1,14 +1,35 @@
-# cx 🔗
+<h1 align="center">
+  cx 🔗
+</h1>
 
-> Concatenate your classes (with shortcuts)
+<p align="center">
+  <strong>
+    Concatenate your classes (with shortcuts)
+  </strong>
+</p>
 
-![NPM Version](https://badgen.net/npm/v/@joebell/cx)
-![Types Included](https://badgen.net/npm/types/@joebell/cx)
-![Minizipped size](https://badgen.net/bundlephobia/minzip/@joebell/cx)
-![License](https://badgen.net/github/license/joe-bell/cx)
-![NPM Downloads](https://badgen.net/npm/dm/@joebell/cx)
+<p align="center">
+  <a href="https://www.npmjs.com/package/@joebell/cx">
+    <img alt="NPM Version" src="https://badgen.net/npm/v/@joebell/cx" />
+  </a>
+  <a href="https://www.npmjs.com/package/@joebell/cx">
+    <img alt="Types Included" src="https://badgen.net/npm/types/@joebell/cx" />
+  </a>
+  <a href="https://bundlephobia.com/result?p=@joebell/cx@0.1.0">
+    <img alt="Minizipped Size" src="https://badgen.net/bundlephobia/minzip/@joebell/cx" />
+  </a>
+  <a href="https://github.com/joe-bell/cx/blob/main/LICENSE">
+    <img alt="MIT License" src="https://badgen.net/github/license/joe-bell/cx" />
+  </a>
+  <a href="https://www.npmjs.com/package/@joebell/cx">
+    <img alt="NPM Downloads" src="https://badgen.net/npm/dm/@joebell/cx" />
+  </a>
+  <a href="https://twitter.com/joebell_">
+    <img alt="Follow @joebell_ on Twitter" src="https://img.shields.io/twitter/follow/joebell_.svg?style=social&label=Follow" />
+  </a>
+</p>
 
----
+<br/>
 
 **`cx`** is a <small><strong>tiny</strong></small> function that mimics and extends the popular [`classnames`][classnames] utility with **"shortcuts"** to re-use common classes (with TypeScript autocompletion)
 
