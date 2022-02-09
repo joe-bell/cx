@@ -1,3 +1,5 @@
+> ⚠️ **This project has been deprecated in favour of [`cva`](https://github.com/joe-bell/cva)**
+
 <h1 align="center">
   cx 🔗
 </h1>
