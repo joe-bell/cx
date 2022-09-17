@@ -2,7 +2,7 @@
   "name": "@joebell/cx",
   "version": "0.1.0",
   "description": "yet another classnames package",
-  "author": "Joe Bell <joe@joebell.co.uk>",
+  "author": "Joe Bell (https://joebell.co.uk)",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/tsdx-test.esm.js",
